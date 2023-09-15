@@ -43,7 +43,7 @@ ul{
 
 nav{
     background-color: white;
-    padding: 5px;
+    margin: 0 auto;
     height: 50px;
 }
 
@@ -101,4 +101,70 @@ input{
     flex-direction: row;
     margin-top:40px;
     justify-content: space-between;
+}
+
+.text{
+    text-align: center;
+}
+
+.debag{
+    border: 1px solid grey;
+}
+
+.professional a{
+    color: #0066ff;
+    text-decoration: underline;
+}
+
+.professional h3, p, ul, li, a{
+    padding-top: 5px;
+}
+
+
+.advanced a{
+    color: #0066ff;
+    text-decoration: underline;
+}
+
+.advanced h3, p, ul, li, a{
+    padding-top: 5px;
+}
+
+
+.enterprise a{
+    color: #0066ff;
+    text-decoration: underline;
+}
+
+.enterprise h3, p, ul, li, a{
+    padding-top: 5px;
+}
+
+.professional, .advanced, .enterprise{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h2, input, .team{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section-2{
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+.team, h5, button{
+    padding: 5px;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+
 }
