@@ -194,3 +194,26 @@ h2, input, .team{
     margin-right: 20px;
     object-fit: contain;
 }
+
+/* SECTION-4 */
+
+.section-4{
+    margin-top: 30px;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.card{
+    width: calc(100% / 3);
+    padding: 0 5px 20px;
+    min-width: 300px;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
