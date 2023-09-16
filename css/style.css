@@ -56,7 +56,8 @@ nav{
     background-color: #0066ff;
     height: 30px;
     border: none;
-    padding: auto;
+    border-radius: 5px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
