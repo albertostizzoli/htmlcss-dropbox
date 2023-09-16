@@ -30,15 +30,18 @@ body{
     align-content: center;
 }
 
-a{
+ ul, li, a{
     text-decoration: none;
+    cursor: pointer;
     padding: 6px 10px;
     display: block;
     color: black;
+    list-style: none;
 }
 
-ul{
-    list-style: none;
+a:hover{
+    text-decoration: underline;
+    color: #0066ff;
 }
 
 nav{
@@ -48,15 +51,12 @@ nav{
     padding: 0;
 }
 
-button{
+.button-blue{
     color: white;
     background-color: #0066ff;
     height: 30px;
     border: none;
-    padding: 5px;
-}
-
-button, a:hover{
+    padding: auto;
     cursor: pointer;
 }
 
@@ -216,4 +216,10 @@ h2, input, .team{
 img{
     display: block;
     width: 100%;
+}
+
+/* SECTION-5 */
+
+.section-5{
+    text-align: center;
 }
