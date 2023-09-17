@@ -59,6 +59,7 @@ nav {
     height: 30px;
     border: none;
     margin-top: 5px;
+    padding: 5px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -67,7 +68,8 @@ nav {
     color: black;
     background-color: white;
     height: 30px;
-    margin-top: 5px;
+    margin-top:5px;
+    padding: 5px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -337,7 +339,7 @@ img {
 
 .position {
     position: absolute;
-    top: 60px;
+    top: 25%;
     padding-left: 30px;
     padding-right: 30px;
     filter: invert(100%);
