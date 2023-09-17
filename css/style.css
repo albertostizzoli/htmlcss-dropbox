@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
-    max-width: 1100px;
+.container {
+    max-width: 1000px;
     margin: 0 auto;
     padding: 10px 5px;
     padding-bottom: 20px;
@@ -17,7 +17,7 @@ body{
 
 /* HEADER */
 
-.d-flex{
+.d-flex {
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
@@ -26,39 +26,44 @@ body{
     align-content: center;
 }
 
- ul, li, a{
+ul, li{
+    cursor: pointer;
+    padding: 6px 10px;
+    display: block;
+    list-style: none;
+}
+
+ a{
     text-decoration: none;
     cursor: pointer;
     padding: 6px 10px;
     display: block;
-    color: black;
     list-style: none;
+    color: black;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
-    color: #0066ff;
 }
 
-nav{
+nav {
     background-color: white;
     margin: 0 auto;
     height: 50px;
     padding: 0;
 }
 
-.button-blue{
+.button-blue {
     color: white;
     background-color: #0066ff;
     height: 30px;
     border: none;
     margin-top: 5px;
-    padding-bottom: 5px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.button-white{
+.button-white {
     color: black;
     background-color: white;
     height: 30px;
@@ -67,27 +72,27 @@ nav{
     cursor: pointer;
 }
 
-header{
+header {
     background-color: #b8d1e5;
     position: relative;
-}    
+}
 
-h1{
+h1 {
     font-size: 3.5em;
     padding-top: 30px;
 }
 
 
-.image-1{
-    width: 430px;
-    height: 260px;
+.image-1 {
+    width: 500px;
+    height: 290px;
     display: block;
     position: absolute;
-    right: 500px;
-    bottom:-50px;
+    right: 400px;
+    bottom: -50px;
 }
 
-.fa-solid{
+.fa-solid {
     font-size: 20px;
     padding: 5px;
 }
@@ -96,39 +101,40 @@ h1{
 
 /* INIZIO MAIN */
 
-h2{
+
+h2 {
     font-size: 2.3em;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
-input{
-    margin-top:40px;
+input {
+    margin-top: 40px;
     margin-left: 20px;
 }
 
 /* SECTION-1 */
 
-.section-1{
+.section-1 {
     display: flex;
     flex-direction: row;
-    margin-top:40px;
+    margin-top: 40px;
     justify-content: space-between;
 }
 
-.text{
+.text {
     text-align: center;
 }
 
-.debag{
+.debag {
     border: 1px solid grey;
 }
 
-.professional a{
+.professional a {
     color: #0066ff;
     text-decoration: underline;
 }
 
-h3{
+h3 {
     font-size: 25px;
 }
 
@@ -136,7 +142,7 @@ h3{
     padding-top: 20px;
 }
 
-.advanced a{
+.advanced a {
     color: #0066ff;
     text-decoration: underline;
 }
@@ -146,7 +152,7 @@ h3{
 }
 
 
-.enterprise a{
+.enterprise a {
     color: #0066ff;
     text-decoration: underline;
 }
@@ -155,20 +161,20 @@ h3{
     padding-top: 20px;
 }
 
-.professional, .advanced, .enterprise{
+.professional, .advanced, .enterprise {
     margin-left: 15px;
     margin-right: 15px;
 }
 
 /* SECTION-2 */
 
-h2, input, .team{
+h2, input, .team {
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.section-2{
-    margin-top:40px;
+.section-2 {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -176,11 +182,11 @@ h2, input, .team{
     flex-shrink: 1;
 }
 
-.team, h5, button{
+.team, h5, button {
     padding: 5px;
 }
 
-.flex-1{
+.flex-1 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
@@ -188,15 +194,15 @@ h2, input, .team{
 
 /* SECTION-3 */
 
-.section-3{
-    margin-top:80px;
+.section-3 {
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.image-2{
+.image-2 {
     width: 500px;
     height: 500px;
     margin-right: 20px;
@@ -205,55 +211,55 @@ h2, input, .team{
 
 /* SECTION-4 */
 
-.section-4{
+.section-4 {
     margin-top: 30px;
 }
 
-.card-wrapper{
+.card-wrapper {
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
 }
 
-.card{
+.card {
     width: calc(100% / 3);
     padding: 0 5px 20px;
     min-width: 300px;
 }
 
-img{
+img {
     display: block;
     width: 100%;
 }
 
 /* SECTION-5 */
 
-.section-5{
+.section-5 {
     text-align: center;
 }
 
 /* SECTION-6 */
 
-.section-6{
+.section-6 {
     margin-top: 80px;
     height: 400px;
 }
 
-.square{
+.square {
     position: relative;
     height: 400px;
     width: 400px;
-    
+
 }
 
-.square-green{
+.square-green {
     position: relative;
     background-color: #a2d39b;
     width: 200px;
     height: 200px;
 }
 
-.square-brown{
+.square-brown {
     position: relative;
     position: absolute;
     top: 0;
@@ -263,24 +269,24 @@ img{
     height: 200px;
 }
 
-.square-blue{
+.square-blue {
     position: relative;
     background-color: #0093ce;
     width: 200px;
     height: 200px;
 }
 
-.square-red{
+.square-red {
     position: relative;
     position: absolute;
     bottom: 0;
-    right:0;
+    right: 0;
     background-color: #ff1c1c;
     width: 200px;
     height: 200px;
 }
 
-.square-grey{
+.square-grey {
     position: absolute;
     top: -400px;
     left: 400px;
@@ -289,27 +295,27 @@ img{
     width: 718px;
 }
 
-.square-dark-red{
+.square-dark-red {
     position: relative;
     position: absolute;
-    top:-800px;
-    left:1118px;
+    top: -800px;
+    left: 1118px;
     background-color: #d5001f;
     width: 200px;
     height: 200px;
 }
 
-.square-dark-blue{
+.square-dark-blue {
     position: relative;
     background-color: #0d2481;
     position: absolute;
     left: 1118px;
-    top:-600px;
+    top: -600px;
     width: 200px;
     height: 200px;
 }
 
-.square-blue-2{
+.square-blue-2 {
     position: relative;
     background-color: #b8d1e5;
     position: absolute;
@@ -319,7 +325,7 @@ img{
     width: 200px;
 }
 
-.square-yellow{
+.square-yellow {
     background-color: #ffd830;
     position: relative;
     position: absolute;
@@ -329,15 +335,16 @@ img{
     width: 200px;
 }
 
-.position{
+.position {
     position: absolute;
-    top: 55px;
+    top: 60px;
     padding-left: 30px;
     padding-right: 30px;
+    filter: invert(100%);
 }
 
 
-.image-3{
+.image-3 {
     width: 300px;
     height: 150px;
     margin-left: 20px;
@@ -347,8 +354,8 @@ img{
 
 /* SECTION-7 */
 
-.section-7{
-    background-color:#b8d1e5;
+.section-7 {
+    background-color: #b8d1e5;
     height: 410px;
     display: flex;
     flex-direction: row;
@@ -356,7 +363,52 @@ img{
     align-items: center;
 }
 
-.title{
+.title {
     color: #61082b;
-    padding-right: 100px;
+    font-size: 40px;
+}
+
+/* SECTION-8 */
+
+.section-8 {
+    margin-top: 40px;
+}
+
+details{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid black;
+}
+
+h6{
+    font-size:20px;
+}
+
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.footer-bottom{
+    padding-top:40px;
+}
+
+select{
+    background-color: black;
+    color: white;
+    border: none;
 }
