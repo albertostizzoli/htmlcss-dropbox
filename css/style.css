@@ -66,7 +66,7 @@ nav {
 .button-white {
     color: black;
     background-color: white;
-    height: 30px;
+    height: 40px;
     margin-top: 15px;
     padding: 5px;
     cursor: pointer;
@@ -140,6 +140,10 @@ input {
 
 h3 {
     font-size: 25px;
+}
+
+h5{
+    font-size: 20px;
 }
 
 .professional, h3, p{
@@ -427,17 +431,27 @@ img {
     margin-top: 40px;
 }
 
-details{
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-top: 1px solid black;
-}
-
-h6{
-    font-size:20px;
-}
-
+details {
+    border-top: 1px solid #aaa;
+    padding: 0.5em 0.5em 0;
+    margin-top: 15px;
+  }
+  
+  summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 10px;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+  
 /* FINE MAIN */
 
 /* INIZIO FOOTER */
