@@ -56,11 +56,10 @@ nav {
 .button-blue {
     color: white;
     background-color: #0066ff;
-    height: 30px;
-    border: none;
+    height: 40px;
     margin-top: 5px;
-    padding: 5px;
-    border-radius: 10px;
+    padding:5px;
+    border: none;
     cursor: pointer;
 }
 
@@ -68,10 +67,13 @@ nav {
     color: black;
     background-color: white;
     height: 30px;
-    margin-top:5px;
+    margin-top: 15px;
     padding: 5px;
-    border-radius: 10px;
     cursor: pointer;
+}
+
+.button-blue:hover{
+    opacity: 0.7;
 }
 
 header {
@@ -90,12 +92,12 @@ h1 {
     height: 290px;
     display: block;
     position: absolute;
-    right: 400px;
+    right: 350px;
     bottom: -50px;
 }
 
 .fa-solid {
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px;
 }
 
@@ -140,8 +142,10 @@ h3 {
     font-size: 25px;
 }
 
-.professional h3, p{
-    padding-top: 20px;
+.professional, h3, p{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .advanced a {
@@ -149,9 +153,12 @@ h3 {
     text-decoration: underline;
 }
 
-.advanced h3, p{
-    padding-top: 20px;
+.advanced, h3, p{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
 
 
 .enterprise a {
@@ -159,9 +166,12 @@ h3 {
     text-decoration: underline;
 }
 
-.enterprise h3, p{
-    padding-top: 20px;
+.enterprise, h3, p{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
 
 .professional, .advanced, .enterprise {
     margin-left: 15px;
@@ -221,6 +231,7 @@ h2, input, .team {
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
+    margin-top: 50px;
 }
 
 .card {
@@ -340,11 +351,51 @@ img {
 .position {
     position: absolute;
     top: 25%;
+    padding-top: 5px;
     padding-left: 30px;
     padding-right: 30px;
     filter: invert(100%);
 }
 
+.square-green:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.square-brown:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.square-blue:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.square-red:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.square-dark-red:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.square-dark-blue:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.square-blue-2:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.square-yellow:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
 
 .image-3 {
     width: 300px;
@@ -413,4 +464,9 @@ select{
     background-color: black;
     color: white;
     border: none;
+}
+
+.footer-top, h3{
+    padding-bottom: 20px;
+
 }
