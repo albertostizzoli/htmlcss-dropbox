@@ -26,6 +26,32 @@ body {
     align-content: center;
 }
 
+.menu-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.submenu{
+    display: none;
+    background-color: #fefafa;
+}
+
+li:hover .submenu{
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+
+header nav li{
+    position: relative;
+}
+
+li:hover{
+    background-color: white;
+}
+
 ul, li{
     cursor: pointer;
     padding: 6px 10px;
@@ -57,7 +83,7 @@ nav {
     color: white;
     background-color: #0066ff;
     height: 40px;
-    margin-top: 5px;
+    margin-top: 3px;
     padding:5px;
     border: none;
     cursor: pointer;
@@ -436,7 +462,7 @@ details {
     padding: 0.5em 0.5em 0;
     margin-top: 15px;
   }
-  
+
   summary {
     font-weight: bold;
     margin: -0.5em -0.5em 0;
