@@ -21,29 +21,12 @@
                     <li><img src="img/logo-small.png" alt="Logo"></li>
                     <li>
                         <a href="#">Perchè Dropbox?</a>
-                        <div class="submenu menu-flex">
+                        <div class="submenu">
                             <ul>
-                                <li>
-                                    <h5>Panoramica</h5>
-                                </li>
-                                <li>Ispirati</li>
-                                <li>Cosa dicono i clienti</li>
-                                <li>Integrazioni di App</li>
-                                <li>Risorse</li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <h5>Lavora al meglio con Dropbox</h5>
-                                </li>
-                                <li>Condividi File</li>
-                                <li>Archivia e organizza</li>
-                                <li>Sincronizza i tuoi dispositivi</li>
-                                <li>Proteggi i tuoi dati</li>
-                                <li>Connetti tra loro i membri del team in remoto</li>
-                                <li>Fai avanzare il tuo lavoro</li>
-                                <li>Backup sempre attivo</li>
-                                <li>Firma un documento</li>
-                                <li>Monitora i dati analitici dei documenti</li>
+                                <li><a href="#">Ispirati</a></li>
+                                <li><a href="#">Cosa dicono i clienti</a></li>
+                                <li><a href="#">Integrazioni di App</a></li>
+                                <li><a href="#">Risorse</a></li>
                             </ul>
                         </div>
                     </li>
@@ -53,19 +36,34 @@
             </div>
             <div>
                 <ul class="d-flex">
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li>
+                        <a href="#">Supporto</a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="#">Centro assistenza</a></li>
+                                <li><a href="#">Forum della Community</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Contatta l'ufficio vendite</a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="#">Invia e-mail</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="#">Accedi</a></li>
                     <li><button class="button-blue">Inizia <i class="fa-solid fa-arrow-right"
                                 style="color: #f5f5f5;"></i></button></li>
                 </ul>
             </div>
         </nav>
-        <div class="container">
+        <div class="container-2">
             <h1>Tutto ciò che ti serve per il<br>
                 lavoro, in un unico posto</h1>
         </div>
-        <div class="container">
+        <div class="container-2">
             <h4>Finalmente tutti i tuoi strumenti, contenuti e<br>
                 collaboratori sono accessibili dallo stesso posto.<br>
                 Dropbox Business è più di uno spazio di<br>
@@ -75,7 +73,7 @@
             <button class="button-blue">Iniza la tua prova gratuita <i class="fa-solid fa-arrow-right"
                     style="color: #f5f5f5;"></i></button>
             <p>Annulla in qualsiasi momento</p>
-            <span><i class="fa-solid fa-arrow-down"></i></span>
+            <span><i class="fa-solid fa-arrow-down-long"></i></span>
             <div>
                 <img class="image-1" src="img/jumbo.png" alt="Immagine 1">
             </div>
@@ -86,10 +84,12 @@
     <!-- inizio main -->
     <main>
         <!-- section-1 -->
-        <section class="container">
+        <section class="container-2">
             <h2>Trova il piano business che fa per te</h2>
-            <input type="radio" name="Payment">Fatturazione Mensile
-            <input type="radio" name="Payment">Fatturazione Annuale
+            <input type="radio" name="fatturazione" id="mensile" checked value="mensile">
+            <label for="mensile">Fatturazione Mensile</label>
+            <input type="radio" name="fatturazione" id="annuale" checked value="annuale">
+            <label for="annuale">Fatturazione Annuale</label>
             <div class="section-1">
                 <div class="professional debag ">
                     <div class="text">
@@ -165,14 +165,14 @@
         </section>
 
         <!-- section-2 -->
-        <section class="container">
+        <section class="container-2">
             <div class="section-2">
                 <div class="team debag">
                     <div class="text">
                         <i class="fa-solid fa-building"></i>Team
                     </div>
                     <hr>
-                    <div class="section-2">
+                    <div>
                         <h3>Enterprise</h3>
                         <h5>Contatta l'ufficio vendite per i prezzi</h5>
                         <p>Soluzioni personalizzate e supporto su misura per aiutare<br>
@@ -187,7 +187,7 @@
         </section>
 
         <!-- section-3 -->
-        <section class="container">
+        <section class="container-2">
             <div class="section-3">
                 <div>
                     <img class="image-2" src="img/partner.png" alt="Partner">
@@ -203,7 +203,7 @@
         </section>
 
         <!-- section-4 -->
-        <section class="container section-4">
+        <section class="container-2 section-4">
             <h2>Esegui più operazioni con Dropbox Business</h2>
             <div class=" card-wrapper">
                 <div class="card">
@@ -276,7 +276,7 @@
         </section>
 
         <!-- section-5 -->
-        <section class="container section-5">
+        <section class="container-2 section-5">
             <h2>Più di 500.000 Team utilizzano Dropbox Business</h2>
             <a href="#">Scopri di più sui nostri clienti</a>
         </section>
@@ -333,7 +333,7 @@
         </section>
 
         <!-- section-8 -->
-        <section class="container section-8">
+        <section class="container-2 section-8">
             <h3>Domande frequenti</h3>
             <details>
                 <summary>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
@@ -367,8 +367,8 @@
                 <li>
                     <h3>Dropbox</h3>
                 </li>
-                <li>Applicazione desktop</li>
-                <li>Perchè Dropbox</li>
+                <li>Applicazione Desktop</li>
+                <li>Perche Dropbox?</li>
                 <li>Piani</li>
                 <li>Sicurezza</li>
                 <li>Funzioni</li>
@@ -377,8 +377,8 @@
                 <li>
                     <h3>Prodotti</h3>
                 </li>
-                <li>Applicazione desktop</li>
-                <li>Perchè Dropbox</li>
+                <li>Applicazione Desktop</li>
+                <li>Perchè Dropbox?</li>
                 <li>Piani</li>
                 <li>Sicurezza</li>
                 <li>Funzioni</li>
@@ -387,8 +387,8 @@
                 <li>
                     <h3>Azienda</h3>
                 </li>
-                <li>Applicazione desktop</li>
-                <li>Perchè Dropbox</li>
+                <li>Applicazione Desktop</li>
+                <li>Perchè Dropbox?</li>
                 <li>Piani</li>
                 <li>Sicurezza</li>
                 <li>Funzioni</li>
@@ -397,8 +397,8 @@
                 <li>
                     <h3>Supporto</h3>
                 </li>
-                <li>Applicazione desktop</li>
-                <li>Perchè Dropbox</li>
+                <li>Applicazione Desktop</li>
+                <li>Perchè Dropbox?</li>
                 <li>Piani</li>
                 <li>Sicurezza</li>
                 <li>Funzioni</li>
@@ -407,8 +407,8 @@
                 <li>
                     <h3>Community</h3>
                 </li>
-                <li>Applicazione desktop</li>
-                <li>Perchè Dropbox</li>
+                <li>Applicazione Desktop</li>
+                <li>Perchè Dropbox?</li>
                 <li>Piani</li>
                 <li>Sicurezza</li>
                 <li>Funzioni</li>
